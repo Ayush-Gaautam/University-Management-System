@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.sqlite3
+.venv/
+.venv39/
+.idea/
+*.log
+user_image/*.png
+user_image/*.jpg
+user_image/*.jpeg

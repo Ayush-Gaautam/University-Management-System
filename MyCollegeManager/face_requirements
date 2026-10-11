@@ -1,0 +1,34 @@
+Requirements For Face Detection
+
+Python Version	:	8 or 9
+--------------------
+
+Modules Required
+----------------------
+cmake
+dlib
+face_recognition
+numpy==1.26
+pandas
+matplotlib
+scikit-learn
+opencv-python
+
+To install write
+
+ "pip install <module name> "
+_________________________________________________________________________________________________________________________________
+
+If Dlib is not being installed
+-----------------------------------
+1. Download it
+	From : "https://github.com/sachadee/Dlib/tree/main"
+			Or
+	GTB Website -> Notes Section ->
+	For python 3.9		=>		dlib-19.22.99-cp39-cp39-win_amd64.whl       [used in my project]
+	For python 3.8		=>		dlib-19.22.99-cp38-cp38-win_amd64.whl
+
+	copy & paste  any of this in your project
+
+2. Open Terminal and write command
+		"python -m pip install dlib-19.22.99-cp39-cp39-win_amd64.whl"

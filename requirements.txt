@@ -1,0 +1,11 @@
+numpy==1.26
+pandas
+matplotlib
+scikit-learn
+opencv-python
+cmake
+dlib
+face-recognition
+pymysql
+Pillow
+tkcalendar
