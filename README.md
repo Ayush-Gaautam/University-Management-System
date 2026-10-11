@@ -38,7 +38,7 @@ The admin portal is the central control section of the application.
 ## Project Structure
 
 ```text
-MyCollegeManager/
+.
 ├── Coursepage.py
 ├── Recordpage2.py
 ├── Userpage.py
@@ -46,11 +46,12 @@ MyCollegeManager/
 ├── printoutpage.py
 ├── face_recognition.py
 ├── pymysql.py
+├── face_requirements
 ├── user_image/
-├── face_requirements/
 ├── README.md
 ├── requirements.txt
-└── .gitignore
+├── .gitignore
+└── .venv/   (optional local environment)
 ```
 
 ## Tech Stack
@@ -139,9 +140,9 @@ CREATE TABLE user (
 From the project root, use:
 
 ```bash
-python MyCollegeManager\Coursepage.py
-python MyCollegeManager\Userpage.py
-python MyCollegeManager\Recordpage2.py
+python Coursepage.py
+python Userpage.py
+python Recordpage2.py
 ```
 
 You can also run these directly from your editor or IDE.
